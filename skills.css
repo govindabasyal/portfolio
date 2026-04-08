@@ -1,0 +1,88 @@
+:root {
+	--accent: #c8bddf;
+	--bg-top: #060b2a;
+	--bg-bottom: #060b2a;
+	--text: #d3d1e2;
+	--muted: #a5a2bf;
+	--card: #25224f;
+	--border: #3c396a;
+}
+
+body {
+	color: var(--text);
+	background: var(--bg-top);
+}
+
+.site-header p {
+	color: var(--muted);
+}
+
+.card {
+	background: var(--card);
+	border: 1px solid var(--border);
+	box-shadow: none;
+}
+
+.card ul {
+	margin: 0;
+	padding-left: 1.2rem;
+}
+
+.card li {
+	margin-bottom: 0.5rem;
+	line-height: 1.5;
+}
+
+.skill-row {
+	margin-bottom: 0.9rem;
+}
+
+.skill-row p {
+	display: flex;
+	justify-content: space-between;
+	margin: 0 0 0.4rem;
+	font-size: 0.95rem;
+	color: #cbc7df;
+}
+
+.skill-bar {
+	height: 10px;
+	background: #363365;
+	border-radius: 999px;
+	overflow: hidden;
+}
+
+.fill {
+	display: block;
+	height: 100%;
+	background: linear-gradient(90deg, #dfd6f0, #bcaed8);
+}
+
+.fill.html {
+	width: 75%;
+}
+
+.fill.css {
+	width: 70%;
+}
+
+.fill.java {
+	width: 65%;
+}
+
+.fill.python {
+	width: 50%;
+}
+
+.card ol {
+	margin: 0;
+	padding-left: 1.2rem;
+}
+
+.card ol li {
+	margin-bottom: 0.45rem;
+}
+
+.site-footer {
+	color: var(--muted);
+}
