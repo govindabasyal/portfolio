@@ -3,7 +3,7 @@
 
 # Personal Portfolio Website: Design, Development, and Evaluation
 
-Nirmal Basyal  
+Govinda Basyal  
 Kavya School  
 Computer Science (CS-4271)  
 Grade 11 Final Project (2082)  
