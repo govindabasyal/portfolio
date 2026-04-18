@@ -1,0 +1,55 @@
+:root {
+	--accent: #c8bddf;
+	--bg-top: #060b2a;
+	--bg-bottom: #060b2a;
+	--text: #d3d1e2;
+	--muted: #a5a2bf;
+	--card: #25224f;
+	--border: #3c396a;
+}
+
+body {
+	color: var(--text);
+	background: var(--bg-top);
+}
+
+.site-header p {
+	color: var(--muted);
+}
+
+.card {
+	background: var(--card);
+	border: 1px solid var(--border);
+	box-shadow: none;
+}
+
+.card p {
+	line-height: 1.6;
+	color: #c9c6df;
+}
+
+.interest-box {
+	background: #2a2756;
+	border: 1px solid var(--border);
+	border-radius: 12px;
+	padding: 1rem;
+}
+
+.interest-box h3 {
+	margin: 0 0 0.3rem;
+	color: #e4dff0;
+}
+
+.interest-box p {
+	margin: 0;
+}
+
+.interest-note {
+	margin-top: 1rem;
+	font-weight: 600;
+	color: #d4d0e7;
+}
+
+.site-footer {
+	color: var(--muted);
+}
